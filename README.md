@@ -1,4 +1,4 @@
-这个插件会模拟终端的滚动，当输入不足最大行数时会在后方补充空行，当超出最大行数时会删除前方的行以塞入新的内容。
+这个RPGMakerMV插件会模拟终端的滚动，当输入不足最大行数时会在后方补充空行，当超出最大行数时会删除前方的行以塞入新的内容。
 适配Drill_up的'Drill_DialogOperator'，可以搭配Drill_up的'Drill_CoreOfString'
 本作者的默认方案依赖Drill_up的'Drill_DialogOperator'和'Drill_CoreOfString'
 这是一个相当手动的插件，你需要使用脚本进行输入
@@ -15,3 +15,5 @@ $gameMessage.add(displayContent);
 $gameMessage.add(processTerminalOutput("hello world"));
 
 提示：你可以使用$gameMessage.add();来创建一个游戏对话框
+
+就连我也不太理解它是如何运行的
